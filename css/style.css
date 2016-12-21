@@ -2,6 +2,10 @@
 	width:100px;
 }
 
+header{
+	overflow:visible;
+}
+
 nav{
 	text-align:right;
 	padding-top:35px;
