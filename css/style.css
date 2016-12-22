@@ -189,12 +189,12 @@ i span {
 	padding-right:0px;
   }
 
-  nav:last-child{
-  	padding-right:0px;
-  }
-
   #cannonball-carousel{
   	top:0px;
+  }
+
+  nav:last-child{
+  	padding-right:0px;
   }
 
   .green-bar{
