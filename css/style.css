@@ -33,6 +33,10 @@
 	bottom:100px;
 }
 
+.mobile-menu{
+	display:none;
+}
+
 header{
 	position:absolute;
 	z-index:10;
@@ -190,7 +194,16 @@ i span {
   }
 
   #cannonball-carousel{
-  	top:100px;
+  	top:0px;
+  }
+
+  .green-bar{
+  	margin-top:0px;
+  	margin-bottom:0px;
+  }
+
+  .mobile-menu{
+  	display:inline;
   }
 }
 
