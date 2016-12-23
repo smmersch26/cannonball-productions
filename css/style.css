@@ -45,6 +45,17 @@ header{
 	overflow:visible;
 }
 
+.header-image{
+	height:600px;
+	background-position:center;
+	background-size:100%;
+	width:100%;
+}
+
+div img{
+	width:100%;
+}
+
 footer{
 	position:absolute;
 	background-color:black;
@@ -125,10 +136,6 @@ nav a{
 	color:blue;
 }
 
-.nav-option:hover .nav-dropdown, .nav-dropdown a{
-	display:block;
-}
-
 i {
   display: none;
   position: absolute;
@@ -201,5 +208,13 @@ i span {
   .mobile-menu{
   	display:inline;
   }
+
+
+}
+
+@media handheld, only screen and (min-width: 767px){
+	.nav-option:hover .nav-dropdown, .nav-dropdown a{
+	display:block;
+	}
 }
 
